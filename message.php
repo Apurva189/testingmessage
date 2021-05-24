@@ -2,7 +2,7 @@
 
 session_start();
 //$p=$_SESSION[""];
-echo "<script type='text/javascript'>alert('succes');</script>";
+//echo "<script type='text/javascript'>alert('succes');</script>";
 $request =""; //initialise the request variable
 $param[method]= "sendMessage";
 $param[send_to] = "6353581998";
