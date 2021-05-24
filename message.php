@@ -5,7 +5,7 @@ session_start();
 //echo "<script type='text/javascript'>alert('succes');</script>";
 $request =""; //initialise the request variable
 $param[method]= "sendMessage";
-$param[send_to] = "6353581998";
+$param[send_to] = "9737750015";
 $param[msg] = "YOUR APPLICATION FOR MANAGEMENT/NRI/NRI SPONSORED 2020 HAS BEEN SUCCESFULLY SUBMITTED AT SVIT VASAD";
 $param[userid] = "2000098782";
 $param[password] = "Svit$321";
@@ -30,5 +30,5 @@ curl_close($ch);
 
 header("Location: login.php");  
 //echo '<script> alert("success")</script>'      
-			    die;
+die;
 ?>
