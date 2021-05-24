@@ -28,7 +28,7 @@ $curl_scraped_page = curl_exec($ch);
 curl_close($ch);
 //echo $curl_scraped_page;
 
-header("Location: login.php");  
+//header("Location: login.php");  
 //echo '<script> alert("success")</script>'      
 die;
 ?>
